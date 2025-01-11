@@ -59,22 +59,35 @@ hr {
   border: 1px solid #ccc;
 }
 
-.item-buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
 .item-buttons button {
-  background-color: #000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #000;
+  background-color: #FFB6C1;
   border: none;
   border-radius: 5px;
   padding: 10px;
+  width: 100%;
+  margin: 5px;
 }
 
 .item-buttons button:hover {
-  background-color: #213547;
+  background-color: #B0C4DE;
+}
+
+.item-buttons .category h3 {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.item-buttons .category {
+  margin-bottom: 1rem;
+}
+
+.item-buttons button img {
+  width: 20px; /* Размер иконок */
+  height: 20px;
 }
 
 .order-details ul {
